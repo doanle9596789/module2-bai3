@@ -30,7 +30,7 @@ public class bth1 {
             array[j]=array[array.length-1-j];
             array[array.length-1-j]=temp;
         }
-        System.out.println("mang sau khi dao nguoc phan tu");
+        System.out.println("\nmang sau khi dao nguoc phan tu");
         for (int j = 0; j < array.length; j++) {
             System.out.print(array[j] +", ");
         }
